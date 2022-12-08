@@ -1,0 +1,5 @@
+{
+    "require": {
+        "webpractik/ocf-converter-sdk": "^1.0"
+    }
+}
