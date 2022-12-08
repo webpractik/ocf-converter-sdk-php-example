@@ -31,7 +31,7 @@ try {
     if ($result->isSuccess()) {
         $resultUrl = $result->getResultingFileUrl();
 
-        $resultFileName = basename($resultUrl);
+        $resultFileName = "result.$to";
 
         if (file_put_contents($resultFileName, file_get_contents($resultUrl))) {
             $result->deleteFile();
